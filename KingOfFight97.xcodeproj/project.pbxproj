@@ -56,6 +56,7 @@
 		4964CC5D1CF2E6DA00885EE3 /* Worldofwar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Worldofwar.gif; sourceTree = "<group>"; };
 		4964CC661CF2E95C00885EE3 /* Common */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Common; sourceTree = "<group>"; };
 		4964CC681CF2E96800885EE3 /* ViewControllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewControllers; sourceTree = "<group>"; };
+		4964CC6B1CF2EA2200885EE3 /* MolakePCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MolakePCH.pch; sourceTree = "<group>"; };
 		933E24454574E42CA89820B0 /* Pods-KingOfFight97.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingOfFight97.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KingOfFight97/Pods-KingOfFight97.debug.xcconfig"; sourceTree = "<group>"; };
 		D3C553D890B0A2396E98489E /* Pods-KingOfFight97.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingOfFight97.release.xcconfig"; path = "Pods/Target Support Files/Pods-KingOfFight97/Pods-KingOfFight97.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +138,7 @@
 			children = (
 				4964CC5D1CF2E6DA00885EE3 /* Worldofwar.gif */,
 				4921BEE11CF2D7FD008B7D65 /* main.m */,
+				4964CC6B1CF2EA2200885EE3 /* MolakePCH.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -493,6 +495,8 @@
 			baseConfigurationReference = 933E24454574E42CA89820B0 /* Pods-KingOfFight97.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MolakePCH.pch;
 				INFOPLIST_FILE = KingOfFight97/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = molake.company.KingOfFight97;
@@ -505,6 +509,8 @@
 			baseConfigurationReference = D3C553D890B0A2396E98489E /* Pods-KingOfFight97.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MolakePCH.pch;
 				INFOPLIST_FILE = KingOfFight97/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = molake.company.KingOfFight97;
