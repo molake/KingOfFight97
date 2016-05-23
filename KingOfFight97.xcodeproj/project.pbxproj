@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4921BEE21CF2D7FD008B7D65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921BEE11CF2D7FD008B7D65 /* main.m */; };
+		4921BEE51CF2D7FD008B7D65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921BEE41CF2D7FD008B7D65 /* AppDelegate.m */; };
+		4921BEE81CF2D7FD008B7D65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921BEE71CF2D7FD008B7D65 /* ViewController.m */; };
+		4921BEEB1CF2D7FD008B7D65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4921BEE91CF2D7FD008B7D65 /* Main.storyboard */; };
+		4921BEED1CF2D7FD008B7D65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4921BEEC1CF2D7FD008B7D65 /* Assets.xcassets */; };
+		4921BEF01CF2D7FD008B7D65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4921BEEE1CF2D7FD008B7D65 /* LaunchScreen.storyboard */; };
+		4921BEFB1CF2D7FD008B7D65 /* KingOfFight97Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921BEFA1CF2D7FD008B7D65 /* KingOfFight97Tests.m */; };
+		4921BF061CF2D7FD008B7D65 /* KingOfFight97UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921BF051CF2D7FD008B7D65 /* KingOfFight97UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4921BEF71CF2D7FD008B7D65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4921BED51CF2D7FD008B7D65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4921BEDC1CF2D7FD008B7D65;
+			remoteInfo = KingOfFight97;
+		};
+		4921BF021CF2D7FD008B7D65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4921BED51CF2D7FD008B7D65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4921BEDC1CF2D7FD008B7D65;
+			remoteInfo = KingOfFight97;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4921BEDD1CF2D7FD008B7D65 /* KingOfFight97.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KingOfFight97.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4921BEE11CF2D7FD008B7D65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4921BEE31CF2D7FD008B7D65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4921BEE41CF2D7FD008B7D65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4921BEE61CF2D7FD008B7D65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4921BEE71CF2D7FD008B7D65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4921BEEA1CF2D7FD008B7D65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4921BEEC1CF2D7FD008B7D65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4921BEEF1CF2D7FD008B7D65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4921BEF11CF2D7FD008B7D65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4921BEF61CF2D7FD008B7D65 /* KingOfFight97Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingOfFight97Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4921BEFA1CF2D7FD008B7D65 /* KingOfFight97Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KingOfFight97Tests.m; sourceTree = "<group>"; };
+		4921BEFC1CF2D7FD008B7D65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4921BF011CF2D7FD008B7D65 /* KingOfFight97UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingOfFight97UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4921BF051CF2D7FD008B7D65 /* KingOfFight97UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KingOfFight97UITests.m; sourceTree = "<group>"; };
+		4921BF071CF2D7FD008B7D65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4921BEDA1CF2D7FD008B7D65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4921BEF31CF2D7FD008B7D65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4921BEFE1CF2D7FD008B7D65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4921BED41CF2D7FD008B7D65 = {
+			isa = PBXGroup;
+			children = (
+				4921BEDF1CF2D7FD008B7D65 /* KingOfFight97 */,
+				4921BEF91CF2D7FD008B7D65 /* KingOfFight97Tests */,
+				4921BF041CF2D7FD008B7D65 /* KingOfFight97UITests */,
+				4921BEDE1CF2D7FD008B7D65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4921BEDE1CF2D7FD008B7D65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4921BEDD1CF2D7FD008B7D65 /* KingOfFight97.app */,
+				4921BEF61CF2D7FD008B7D65 /* KingOfFight97Tests.xctest */,
+				4921BF011CF2D7FD008B7D65 /* KingOfFight97UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4921BEDF1CF2D7FD008B7D65 /* KingOfFight97 */ = {
+			isa = PBXGroup;
+			children = (
+				4921BEE31CF2D7FD008B7D65 /* AppDelegate.h */,
+				4921BEE41CF2D7FD008B7D65 /* AppDelegate.m */,
+				4921BEE61CF2D7FD008B7D65 /* ViewController.h */,
+				4921BEE71CF2D7FD008B7D65 /* ViewController.m */,
+				4921BEE91CF2D7FD008B7D65 /* Main.storyboard */,
+				4921BEEC1CF2D7FD008B7D65 /* Assets.xcassets */,
+				4921BEEE1CF2D7FD008B7D65 /* LaunchScreen.storyboard */,
+				4921BEF11CF2D7FD008B7D65 /* Info.plist */,
+				4921BEE01CF2D7FD008B7D65 /* Supporting Files */,
+			);
+			path = KingOfFight97;
+			sourceTree = "<group>";
+		};
+		4921BEE01CF2D7FD008B7D65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4921BEE11CF2D7FD008B7D65 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4921BEF91CF2D7FD008B7D65 /* KingOfFight97Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4921BEFA1CF2D7FD008B7D65 /* KingOfFight97Tests.m */,
+				4921BEFC1CF2D7FD008B7D65 /* Info.plist */,
+			);
+			path = KingOfFight97Tests;
+			sourceTree = "<group>";
+		};
+		4921BF041CF2D7FD008B7D65 /* KingOfFight97UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4921BF051CF2D7FD008B7D65 /* KingOfFight97UITests.m */,
+				4921BF071CF2D7FD008B7D65 /* Info.plist */,
+			);
+			path = KingOfFight97UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4921BEDC1CF2D7FD008B7D65 /* KingOfFight97 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4921BF0A1CF2D7FD008B7D65 /* Build configuration list for PBXNativeTarget "KingOfFight97" */;
+			buildPhases = (
+				4921BED91CF2D7FD008B7D65 /* Sources */,
+				4921BEDA1CF2D7FD008B7D65 /* Frameworks */,
+				4921BEDB1CF2D7FD008B7D65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KingOfFight97;
+			productName = KingOfFight97;
+			productReference = 4921BEDD1CF2D7FD008B7D65 /* KingOfFight97.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4921BEF51CF2D7FD008B7D65 /* KingOfFight97Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4921BF0D1CF2D7FD008B7D65 /* Build configuration list for PBXNativeTarget "KingOfFight97Tests" */;
+			buildPhases = (
+				4921BEF21CF2D7FD008B7D65 /* Sources */,
+				4921BEF31CF2D7FD008B7D65 /* Frameworks */,
+				4921BEF41CF2D7FD008B7D65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4921BEF81CF2D7FD008B7D65 /* PBXTargetDependency */,
+			);
+			name = KingOfFight97Tests;
+			productName = KingOfFight97Tests;
+			productReference = 4921BEF61CF2D7FD008B7D65 /* KingOfFight97Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4921BF001CF2D7FD008B7D65 /* KingOfFight97UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4921BF101CF2D7FD008B7D65 /* Build configuration list for PBXNativeTarget "KingOfFight97UITests" */;
+			buildPhases = (
+				4921BEFD1CF2D7FD008B7D65 /* Sources */,
+				4921BEFE1CF2D7FD008B7D65 /* Frameworks */,
+				4921BEFF1CF2D7FD008B7D65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4921BF031CF2D7FD008B7D65 /* PBXTargetDependency */,
+			);
+			name = KingOfFight97UITests;
+			productName = KingOfFight97UITests;
+			productReference = 4921BF011CF2D7FD008B7D65 /* KingOfFight97UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4921BED51CF2D7FD008B7D65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = molake;
+				TargetAttributes = {
+					4921BEDC1CF2D7FD008B7D65 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4921BEF51CF2D7FD008B7D65 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4921BEDC1CF2D7FD008B7D65;
+					};
+					4921BF001CF2D7FD008B7D65 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4921BEDC1CF2D7FD008B7D65;
+					};
+				};
+			};
+			buildConfigurationList = 4921BED81CF2D7FD008B7D65 /* Build configuration list for PBXProject "KingOfFight97" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4921BED41CF2D7FD008B7D65;
+			productRefGroup = 4921BEDE1CF2D7FD008B7D65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4921BEDC1CF2D7FD008B7D65 /* KingOfFight97 */,
+				4921BEF51CF2D7FD008B7D65 /* KingOfFight97Tests */,
+				4921BF001CF2D7FD008B7D65 /* KingOfFight97UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4921BEDB1CF2D7FD008B7D65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4921BEF01CF2D7FD008B7D65 /* LaunchScreen.storyboard in Resources */,
+				4921BEED1CF2D7FD008B7D65 /* Assets.xcassets in Resources */,
+				4921BEEB1CF2D7FD008B7D65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4921BEF41CF2D7FD008B7D65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4921BEFF1CF2D7FD008B7D65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4921BED91CF2D7FD008B7D65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4921BEE81CF2D7FD008B7D65 /* ViewController.m in Sources */,
+				4921BEE51CF2D7FD008B7D65 /* AppDelegate.m in Sources */,
+				4921BEE21CF2D7FD008B7D65 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4921BEF21CF2D7FD008B7D65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4921BEFB1CF2D7FD008B7D65 /* KingOfFight97Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4921BEFD1CF2D7FD008B7D65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4921BF061CF2D7FD008B7D65 /* KingOfFight97UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4921BEF81CF2D7FD008B7D65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4921BEDC1CF2D7FD008B7D65 /* KingOfFight97 */;
+			targetProxy = 4921BEF71CF2D7FD008B7D65 /* PBXContainerItemProxy */;
+		};
+		4921BF031CF2D7FD008B7D65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4921BEDC1CF2D7FD008B7D65 /* KingOfFight97 */;
+			targetProxy = 4921BF021CF2D7FD008B7D65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4921BEE91CF2D7FD008B7D65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4921BEEA1CF2D7FD008B7D65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4921BEEE1CF2D7FD008B7D65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4921BEEF1CF2D7FD008B7D65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4921BF081CF2D7FD008B7D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4921BF091CF2D7FD008B7D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4921BF0B1CF2D7FD008B7D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KingOfFight97/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = molake.company.KingOfFight97;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4921BF0C1CF2D7FD008B7D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KingOfFight97/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = molake.company.KingOfFight97;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4921BF0E1CF2D7FD008B7D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KingOfFight97Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = molake.company.KingOfFight97Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KingOfFight97.app/KingOfFight97";
+			};
+			name = Debug;
+		};
+		4921BF0F1CF2D7FD008B7D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KingOfFight97Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = molake.company.KingOfFight97Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KingOfFight97.app/KingOfFight97";
+			};
+			name = Release;
+		};
+		4921BF111CF2D7FD008B7D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KingOfFight97UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = molake.company.KingOfFight97UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KingOfFight97;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4921BF121CF2D7FD008B7D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KingOfFight97UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = molake.company.KingOfFight97UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KingOfFight97;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4921BED81CF2D7FD008B7D65 /* Build configuration list for PBXProject "KingOfFight97" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4921BF081CF2D7FD008B7D65 /* Debug */,
+				4921BF091CF2D7FD008B7D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4921BF0A1CF2D7FD008B7D65 /* Build configuration list for PBXNativeTarget "KingOfFight97" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4921BF0B1CF2D7FD008B7D65 /* Debug */,
+				4921BF0C1CF2D7FD008B7D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4921BF0D1CF2D7FD008B7D65 /* Build configuration list for PBXNativeTarget "KingOfFight97Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4921BF0E1CF2D7FD008B7D65 /* Debug */,
+				4921BF0F1CF2D7FD008B7D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4921BF101CF2D7FD008B7D65 /* Build configuration list for PBXNativeTarget "KingOfFight97UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4921BF111CF2D7FD008B7D65 /* Debug */,
+				4921BF121CF2D7FD008B7D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4921BED51CF2D7FD008B7D65 /* Project object */;
+}
