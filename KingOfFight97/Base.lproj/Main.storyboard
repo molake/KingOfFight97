@@ -8,7 +8,7 @@
         <!--ExpertVideosViewController-->
         <scene sceneID="NvF-b3-2fy">
             <objects>
-                <viewController id="Nyt-hX-JdL" userLabel="ExpertVideosViewController" sceneMemberID="viewController">
+                <viewController id="Nyt-hX-JdL" userLabel="ExpertVideosViewController" customClass="ExpertVediosViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5bw-18-6wk"/>
                         <viewControllerLayoutGuide type="bottom" id="uDK-eg-Wsq"/>
@@ -35,7 +35,7 @@
         <!--MyProfileViewController-->
         <scene sceneID="Usa-2R-ptr">
             <objects>
-                <viewController id="P9u-ED-6zt" userLabel="MyProfileViewController" sceneMemberID="viewController">
+                <viewController id="P9u-ED-6zt" userLabel="MyProfileViewController" customClass="MyProfileViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nXN-Oy-dEh"/>
                         <viewControllerLayoutGuide type="bottom" id="dJc-kR-Eaa"/>
@@ -62,7 +62,7 @@
         <!--KOFNewsViewController-->
         <scene sceneID="4av-k0-Kuj">
             <objects>
-                <viewController id="M2g-u7-iMx" userLabel="KOFNewsViewController" sceneMemberID="viewController">
+                <viewController id="M2g-u7-iMx" userLabel="KOFNewsViewController" customClass="KOFNewsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="h3M-AM-rrB"/>
                         <viewControllerLayoutGuide type="bottom" id="HaA-C7-0xE"/>
@@ -89,7 +89,7 @@
         <!--CommandListViewController-->
         <scene sceneID="Ytr-m0-St4">
             <objects>
-                <viewController id="PNZ-fF-RdB" userLabel="CommandListViewController" sceneMemberID="viewController">
+                <viewController id="PNZ-fF-RdB" userLabel="CommandListViewController" customClass="CommandListViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tHr-vv-nzR"/>
                         <viewControllerLayoutGuide type="bottom" id="2Hb-gp-tQq"/>
