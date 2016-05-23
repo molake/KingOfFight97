@@ -14,10 +14,9 @@
 		4921BEF01CF2D7FD008B7D65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4921BEEE1CF2D7FD008B7D65 /* LaunchScreen.storyboard */; };
 		4921BEFB1CF2D7FD008B7D65 /* KingOfFight97Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921BEFA1CF2D7FD008B7D65 /* KingOfFight97Tests.m */; };
 		4921BF061CF2D7FD008B7D65 /* KingOfFight97UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921BF051CF2D7FD008B7D65 /* KingOfFight97UITests.m */; };
-		4964CC4E1CF2E38700885EE3 /* CommandListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4964CC4D1CF2E38700885EE3 /* CommandListViewController.m */; };
-		4964CC511CF2E3A200885EE3 /* MyProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4964CC501CF2E3A200885EE3 /* MyProfileViewController.m */; };
-		4964CC541CF2E3CE00885EE3 /* ExpertVediosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4964CC531CF2E3CE00885EE3 /* ExpertVediosViewController.m */; };
-		4964CC571CF2E3DB00885EE3 /* KOFNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4964CC561CF2E3DB00885EE3 /* KOFNewsViewController.m */; };
+		4964CC5E1CF2E6DA00885EE3 /* Worldofwar.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4964CC5D1CF2E6DA00885EE3 /* Worldofwar.gif */; };
+		4964CC671CF2E95C00885EE3 /* Common in Resources */ = {isa = PBXBuildFile; fileRef = 4964CC661CF2E95C00885EE3 /* Common */; };
+		4964CC691CF2E96800885EE3 /* ViewControllers in Resources */ = {isa = PBXBuildFile; fileRef = 4964CC681CF2E96800885EE3 /* ViewControllers */; };
 		B0E42EBE766C3C09B29FC497 /* libPods-KingOfFight97.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06423F90683C4954B18D3376 /* libPods-KingOfFight97.a */; };
 /* End PBXBuildFile section */
 
@@ -54,14 +53,9 @@
 		4921BF011CF2D7FD008B7D65 /* KingOfFight97UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingOfFight97UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4921BF051CF2D7FD008B7D65 /* KingOfFight97UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KingOfFight97UITests.m; sourceTree = "<group>"; };
 		4921BF071CF2D7FD008B7D65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4964CC4C1CF2E38700885EE3 /* CommandListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandListViewController.h; sourceTree = "<group>"; };
-		4964CC4D1CF2E38700885EE3 /* CommandListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandListViewController.m; sourceTree = "<group>"; };
-		4964CC4F1CF2E3A200885EE3 /* MyProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProfileViewController.h; sourceTree = "<group>"; };
-		4964CC501CF2E3A200885EE3 /* MyProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyProfileViewController.m; sourceTree = "<group>"; };
-		4964CC521CF2E3CE00885EE3 /* ExpertVediosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpertVediosViewController.h; sourceTree = "<group>"; };
-		4964CC531CF2E3CE00885EE3 /* ExpertVediosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpertVediosViewController.m; sourceTree = "<group>"; };
-		4964CC551CF2E3DB00885EE3 /* KOFNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOFNewsViewController.h; sourceTree = "<group>"; };
-		4964CC561CF2E3DB00885EE3 /* KOFNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOFNewsViewController.m; sourceTree = "<group>"; };
+		4964CC5D1CF2E6DA00885EE3 /* Worldofwar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Worldofwar.gif; sourceTree = "<group>"; };
+		4964CC661CF2E95C00885EE3 /* Common */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Common; sourceTree = "<group>"; };
+		4964CC681CF2E96800885EE3 /* ViewControllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewControllers; sourceTree = "<group>"; };
 		933E24454574E42CA89820B0 /* Pods-KingOfFight97.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingOfFight97.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KingOfFight97/Pods-KingOfFight97.debug.xcconfig"; sourceTree = "<group>"; };
 		D3C553D890B0A2396E98489E /* Pods-KingOfFight97.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingOfFight97.release.xcconfig"; path = "Pods/Target Support Files/Pods-KingOfFight97/Pods-KingOfFight97.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,16 +119,10 @@
 		4921BEDF1CF2D7FD008B7D65 /* KingOfFight97 */ = {
 			isa = PBXGroup;
 			children = (
+				4964CC681CF2E96800885EE3 /* ViewControllers */,
+				4964CC661CF2E95C00885EE3 /* Common */,
 				4921BEE31CF2D7FD008B7D65 /* AppDelegate.h */,
 				4921BEE41CF2D7FD008B7D65 /* AppDelegate.m */,
-				4964CC4C1CF2E38700885EE3 /* CommandListViewController.h */,
-				4964CC4D1CF2E38700885EE3 /* CommandListViewController.m */,
-				4964CC4F1CF2E3A200885EE3 /* MyProfileViewController.h */,
-				4964CC501CF2E3A200885EE3 /* MyProfileViewController.m */,
-				4964CC521CF2E3CE00885EE3 /* ExpertVediosViewController.h */,
-				4964CC531CF2E3CE00885EE3 /* ExpertVediosViewController.m */,
-				4964CC551CF2E3DB00885EE3 /* KOFNewsViewController.h */,
-				4964CC561CF2E3DB00885EE3 /* KOFNewsViewController.m */,
 				4921BEE91CF2D7FD008B7D65 /* Main.storyboard */,
 				4921BEEC1CF2D7FD008B7D65 /* Assets.xcassets */,
 				4921BEEE1CF2D7FD008B7D65 /* LaunchScreen.storyboard */,
@@ -147,6 +135,7 @@
 		4921BEE01CF2D7FD008B7D65 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4964CC5D1CF2E6DA00885EE3 /* Worldofwar.gif */,
 				4921BEE11CF2D7FD008B7D65 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -285,9 +274,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4964CC671CF2E95C00885EE3 /* Common in Resources */,
 				4921BEF01CF2D7FD008B7D65 /* LaunchScreen.storyboard in Resources */,
+				4964CC5E1CF2E6DA00885EE3 /* Worldofwar.gif in Resources */,
 				4921BEED1CF2D7FD008B7D65 /* Assets.xcassets in Resources */,
 				4921BEEB1CF2D7FD008B7D65 /* Main.storyboard in Resources */,
+				4964CC691CF2E96800885EE3 /* ViewControllers in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,11 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4964CC4E1CF2E38700885EE3 /* CommandListViewController.m in Sources */,
-				4964CC511CF2E3A200885EE3 /* MyProfileViewController.m in Sources */,
 				4921BEE51CF2D7FD008B7D65 /* AppDelegate.m in Sources */,
-				4964CC541CF2E3CE00885EE3 /* ExpertVediosViewController.m in Sources */,
-				4964CC571CF2E3DB00885EE3 /* KOFNewsViewController.m in Sources */,
 				4921BEE21CF2D7FD008B7D65 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
